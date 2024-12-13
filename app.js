@@ -6,6 +6,8 @@ const rotaLivro = require("./rotas/livro")
 //aplicação express
 const app = express();
 
+app.use(express.json())
+
 //definição da porta
 const port = 8000;
 
